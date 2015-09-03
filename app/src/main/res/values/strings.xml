@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">濒危档案</string>
+    <string name="app_name">零灭绝联盟</string>
     <string name="app_title">濒危动物档案录</string>
     <string name="title">世界濒危动物档案</string>
     <string name="above">关于动物保护</string>
@@ -10,7 +10,7 @@
     <string name="button_submit">提交</string>
     <string name="button_backward">返回</string>
     
-    <string name="world_protection">世界自然保护联盟濒危物种红色名录</string>
+    <string name="world_protection">动物保护组织</string>
     <string name="world_protection_content">世界自然保护联盟濒危物种红色名录（IUCN Red List of Threatened Species或称 IUCN红色名录）于1963年开始编制，是全球动植物物种保护现状最全面的名录，也被认为是生物多样性状况最具权威的指标。此名录由世界自然保护联盟编制及维护。IUCN红色名录是根据严格准则去评估数以千计物种及亚种的绝种风险所编制而成的。准则是根据物种及地区釐定，旨在向公众及决策者反映保育工作的迫切性，并协助国际社会避免物种灭绝。</string>
 
     <string name="little_known">物种保护的小知识</string>

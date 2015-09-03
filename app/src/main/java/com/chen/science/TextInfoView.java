@@ -17,12 +17,11 @@ import java.io.InputStream;
 /**
  * Created by chenchi_94 on 2015/9/3.
  */
-public class AnimalDetail extends TitleActivity implements View.OnClickListener {
+public class TextInfoView extends TitleActivity implements View.OnClickListener{
 
-    private String animal;
-    private String animalPy;
-    private ImageView imageView;
     private TextView textView;
+    private String pyValue;
+    private String type;
 
     @Override
     protected void onBackward(View backwardView) {
@@ -39,30 +38,22 @@ public class AnimalDetail extends TitleActivity implements View.OnClickListener 
     private void initView() {
         setContentView(R.layout.animal_view);
         showBackwardView(R.string.button_backward, true);
-        animal = getIntent().getExtras().getString("animal");
-        setTitle(animal);
-        imageView = (ImageView)findViewById(R.id.imageView);
+        String value = getIntent().getExtras().getString("value");
+        type = getIntent().getExtras().getString("type");
+        setTitle(value);
         textView = (TextView)findViewById(R.id.textView);
-        animalPy = HanZiToPinYin.toPinYin(animal);
+        pyValue = HanZiToPinYin.toPinYin(value);
         loadData();
     }
 
     private void loadData(){
         try {
-            String path = "pic/"+animalPy+".jpg";
+            String path = type + "/" + pyValue + ".doc";
             InputStream is = getResources().getAssets().open(path);
-            Bitmap bitmap = BitmapFactory.decodeStream(is);
-
-            imageView.setImageBitmap(bitmap);
-
-            path = "doc/" + animalPy + ".doc";
-            Log.d("info", path);
-            is = getResources().getAssets().open(path);
             WordExtractor extractor = null;
             String text = null;
             extractor = new WordExtractor();
             text = extractor.extractText(is);
-            //Log.d("info", "read: " + text);
             textView.setText(text);
         }catch (Exception e){
             Log.d("info", e.toString());

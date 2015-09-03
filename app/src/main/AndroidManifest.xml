@@ -20,6 +20,8 @@
         <activity android:name=".AnimalDetail"/>
         <activity android:name=".AreaList"/>
         <activity android:name=".Above"/>
+        <activity android:name=".ProtectionList"/>
+        <activity android:name=".TextInfoView"/>
     </application>
 
 </manifest>

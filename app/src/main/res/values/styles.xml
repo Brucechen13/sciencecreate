@@ -27,7 +27,7 @@
 
     <style name="List_Item">
         <item name="android:textColor">@color/item_color</item>
-        <item name="android:textSize">35dp</item>
+        <item name="android:textSize">25dp</item>
     </style>
 
     <style name="Above_Title">
@@ -35,7 +35,7 @@
         <item name="android:textSize">25dp</item>
     </style>
     <style name="Above_Contetn">
-        <item name="android:textColor">@android:color/holo_green_light</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
         <item name="android:textSize">20dp</item>
     </style>
 

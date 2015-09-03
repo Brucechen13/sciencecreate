@@ -38,7 +38,7 @@ public class AreaList extends TitleActivity implements View.OnClickListener{
 
     private void initView(){
         setContentView(R.layout.area_list);
-        setTitle(R.string.area);
+        setTitle(R.string.app_title);
         showBackwardView(R.string.button_backward, true);
         initJson();
         lv = (ListView) findViewById(R.id.listView);//得到ListView对象的引用 /*为ListView设置Adapter来绑定数据*/

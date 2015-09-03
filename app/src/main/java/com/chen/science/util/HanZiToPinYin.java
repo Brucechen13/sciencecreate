@@ -1,5 +1,7 @@
 package com.chen.science.util;
 
+import android.util.Log;
+
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;
 import net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat;
@@ -36,11 +38,17 @@ public class HanZiToPinYin {
             //是否在汉字范围内
             if(hanzi>=0x4e00 && hanzi<=0x9fa5){
                 pinyinArray = PinyinHelper.toHanyuPinyinStringArray(hanzi, hanyuPinyin);
-            }
+            }else
+                return String.valueOf(hanzi);
         } catch (BadHanyuPinyinOutputFormatCombination e) {
             e.printStackTrace();
         }
         //将获取到的拼音返回
-        return pinyinArray[0];
+        String ret = pinyinArray[0];
+        if(pinyinArray[0].contains("ü")) {
+            ret = ret.replace("ü", "v");
+            Log.d("info", "change ü");
+        }
+        return ret;
     }
 }
