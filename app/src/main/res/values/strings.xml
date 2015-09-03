@@ -1,9 +1,18 @@
 <resources>
-    <string name="app_name">Science</string>
-
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">濒危档案</string>
+    <string name="app_title">濒危动物档案录</string>
+    <string name="title">世界濒危动物档案</string>
+    <string name="above">关于动物保护</string>
+    <string name="area">动保专家养成记</string>
+    <string name="animal">濒危动物列表</string>
     <string name="action_settings">Settings</string>
 
     <string name="button_submit">提交</string>
     <string name="button_backward">返回</string>
+    
+    <string name="world_protection">世界自然保护联盟濒危物种红色名录</string>
+    <string name="world_protection_content">世界自然保护联盟濒危物种红色名录（IUCN Red List of Threatened Species或称 IUCN红色名录）于1963年开始编制，是全球动植物物种保护现状最全面的名录，也被认为是生物多样性状况最具权威的指标。此名录由世界自然保护联盟编制及维护。IUCN红色名录是根据严格准则去评估数以千计物种及亚种的绝种风险所编制而成的。准则是根据物种及地区釐定，旨在向公众及决策者反映保育工作的迫切性，并协助国际社会避免物种灭绝。</string>
+
+    <string name="little_known">物种保护的小知识</string>
+    <string name="little_known_content">物种保护级别被分为9类，根据数目下降速度、物种总数、地理分布、群族分散程度等准则分类，最高级别是绝灭（EX） ，其次是野外绝灭（EW） ，“极危”（CR）、“濒危”（EN）和“易危”（VU）3个级别统称“受威胁”，其他顺次是近危（NT）、无危（LC）、数据缺乏（DD）、未评估（NE）。</string>
 </resources>

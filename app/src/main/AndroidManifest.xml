@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AnimalList"/>
+        <activity android:name=".AnimalDetail"/>
+        <activity android:name=".AreaList"/>
+        <activity android:name=".Above"/>
     </application>
 
 </manifest>

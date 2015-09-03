@@ -3,7 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <dimen name="header_height">45p</dimen>
+    <dimen name="header_height">45dp</dimen>
     <dimen name="table_margin">6dp</dimen>
     <dimen name="drawable_padding">5dp</dimen>
+    <dimen name="list_padding">15dp</dimen>
 </resources>
