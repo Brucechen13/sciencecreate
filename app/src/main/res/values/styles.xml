@@ -26,7 +26,7 @@
     </style>
 
     <style name="List_Item">
-        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textColor">@color/item_color</item>
         <item name="android:textSize">35dp</item>
     </style>
 

@@ -9,6 +9,7 @@
     <color name="light_white">#fcfcfc</color>
     <color name="tab_main_color">#FFE4E1</color>
     <color name="title_main_color">#FFDEAD</color>
+    <color name="item_color">#EE1289</color>
 
     <!-- 标题栏返回按钮的背景颜色 -->
     <drawable name="button_backward_pressed">#40F64C99</drawable>
